@@ -7,12 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'main': '#FFFFFF',
+        'main': '#1d1d1f',
         'secondary': '#f8f8f8',
         'accent': '#ffa407',
-        'text': '#1d1d1f'
+        'text': '#FFFFFF'
       },
-
+      backgroundImage: {
+        'splash': "url('/src/assets/splash.jpg')" 
+      },
       fontFamily: {
         "sans": ['Montserrat', 'sans-serif']
       },
