@@ -1,5 +1,6 @@
 import Contact from "../components/contact"
 import Divider from "../components/divider"
+import Footer from "../components/footer"
 import Landing from "../components/landing"
 import NavBar from "../components/navbar"
 
@@ -80,5 +81,6 @@ export default function HomePage() {
         </div>
         < Divider/>
         < Contact/>
+        < Footer/>
     </> 
 }
