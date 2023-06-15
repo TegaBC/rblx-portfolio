@@ -1,8 +1,6 @@
 
 export default function Contact() {
     return <div className="flex flex-col items-center bg-main py-8 text-text">
-        <h1 className="text-7xl font-bold mb-4">CONTACT</h1>    
-        <h2 className="text-xl font-bold text-accent mb-8">Stay connected with social media.</h2>
         <div className="flex gap-48">
             <a href="https://twitter.com/JustTega_" target="_blank" rel="noreferrer" className="flex items-center justify-center flex-col gap-2">
                 <div className="text-8xl">
