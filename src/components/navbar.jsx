@@ -5,7 +5,7 @@ export default function NavBar () {
         <h1 className="ml-16 font-semibold text-2xl">TegaBC</h1>
         <div className="flex gap-4 font-semibold">
             <a href="" className="hover:text-accent transition-colors">Contact</a>
-            <a href="" className="hover:text-accent transition-colors">Past Work</a>
+            <a href="" className="hover:text-accent transition-colors">Portfolio</a>
         </div>
     </div>
 } 
