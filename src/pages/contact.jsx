@@ -12,7 +12,7 @@ export default function ContactPage() {
             </div>
         </div>
         <div className="bg-main py-20">
-        <Socials />
+            <Socials />
         </div>
         <Footer />
     </>
