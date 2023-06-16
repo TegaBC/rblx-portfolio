@@ -8,13 +8,13 @@ export default function PortfolioPage() {
             <NavBar />
             <div className="h-[480px] bg-splash bg-cover text-text">
                 <div className="flex flex-col gap-6 items-center justify-center h-full">
-                    <h1 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-8xl font-bold">PORTFOLIO</h1>
+                    <h1 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-center text-6xl lg:text-8xl font-bold">PORTFOLIO</h1>
                     <h2 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-xl">View my past work and projects</h2>
                 </div>
             </div>
             <div className="flex flex-col items-center bg-main pt-8 text-text">
-                <h1 className="text-7xl font-bold mb-4">PAST GAMES</h1>    
-                <h2 className="text-xl font-bold text-accent mb-8">Games I have developed or contributed to.</h2>
+                <h1 className="text-6xl lg:text-7xl font-bold mb-4 text-center">PAST GAMES</h1>    
+                <h2 className="text-xl font-bold text-accent mb-8 text-center">Games I have developed or contributed to.</h2>
                 <div className="bg-main flex flex-col gap-12 items-center justify-center mb-8">
                    
                    { /*  Each one of the following divs is a project  */}
@@ -110,14 +110,14 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <Divider />
-            <div className="flex flex-col items-center bg-main pt-8 text-text">
-                <h1 className="text-7xl font-bold mb-4">MODULES</h1>    
-                <h2 className="text-xl font-bold text-accent mb-8">Libraries and modules I am currently working on.</h2>
+            <div className="flex flex-col items-center bg-main pt-8 text-text px-8">
+                <h1 className="text-6xl lg:text-7xl font-bold mb-4">MODULES</h1>    
+                <h2 className="text-xl font-bold text-accent mb-8 text-center">Libraries and modules I am currently working on.</h2>
 
                 <div className="bg-main flex flex-col gap-8 items-center justify-center mb-8">
                     <div className="text-center max-w-sm">
                         <h1 className="font-semibold text-2xl">Camera Control Module</h1>
-                        <p className="text-sm">An open source (not released yet) module that exposes simple functions to the end user to control the camera. Allows for multiple cameras and utility functions to manipulate the cameras.</p>
+                        <p className="text-sm">A module that exposes simple functions to the end user to control the camera. Allows for multiple cameras and utility functions to manipulate the cameras.</p>
                     </div>
                     <div className="text-center max-w-sm">
                         <h1 className="font-semibold text-2xl">Notification System Module</h1>
@@ -125,14 +125,14 @@ export default function PortfolioPage() {
                     </div>
                     <div className="text-center max-w-sm">
                         <h1 className="font-semibold text-2xl">Party System Module (WIP)</h1>
-                        <p className="text-sm">A work in progress model that makes it extremely easy to manage party's of players within games.</p>
+                        <p className="text-sm">A work in progress module that makes it extremely easy to manage party's of players within games.</p>
                     </div>
                 </div>
             </div>
             <Divider />
-            <div className="flex flex-col items-center bg-main pt-8 text-text">
-                <h1 className="text-7xl font-bold mb-4">PROJECTS</h1>    
-                <h2 className="text-xl font-bold text-accent mb-8">Small projects and games by me.</h2>
+            <div className="flex flex-col items-center bg-main pt-8 text-text p-8">
+                <h1 className="text-6xl lg:text-7xl font-bold mb-4">PROJECTS</h1>    
+                <h2 className="text-xl font-bold text-accent mb-8 text-center">Small projects and games by me.</h2>
 
                 <div className="bg-main flex flex-col gap-12 items-center justify-center mb-8">
                     <h1 className="italic">Coming soon...</h1>

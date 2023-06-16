@@ -8,8 +8,8 @@ export default function HomePage() {
     return <>
         < NavBar/>
         < Landing/>
-        <div className="flex flex-col items-center bg-main py-8 text-text">
-            <h1 className="text-7xl font-bold mb-4">ABOUT ME</h1>    
+        <div className="flex flex-col items-center bg-main py-8 text-text text-center">
+            <h1 className="text-6xl lg:text-7xl font-bold mb-4">ABOUT ME</h1>    
             <h2 className="text-xl font-bold text-accent mb-4">Learn more about me.</h2>
             <div className="flex flex-col gap-4 items-center">
                 <div className="flex gap-2">
@@ -34,8 +34,8 @@ export default function HomePage() {
             </div>
         </div>
         < Divider/>
-        <div className="flex flex-col items-center bg-main py-8 text-text">
-            <h1 className="text-7xl font-bold mb-4">SKILLS</h1>    
+        <div className="flex flex-col items-center bg-main py-8 text-text px-6">
+            <h1 className="text-6xl lg:text-7xl font-bold mb-4">SKILLS</h1>    
             <h2 className="text-xl font-bold text-accent mb-4">My skillset.</h2>
             <div className="flex flex-col gap-6 text-black">
                 <div className="flex gap-4">
@@ -80,9 +80,9 @@ export default function HomePage() {
             </div>
         </div>
         < Divider/>
-        <div className="flex flex-col items-center bg-main pt-8 text-text">
-            <h1 className="text-7xl font-bold mb-4">CONTACT</h1>    
-            <h2 className="text-xl font-bold text-accent mb-8">Stay connected with social media.</h2>
+        <div className="flex flex-col items-center bg-main pt-8 text-text px-8">
+            <h1 className="text-6xl lg:text-7xl font-bold mb-4">CONTACT</h1>    
+            <h2 className="text-xl font-bold text-accent mb-8 text-center">Stay connected with social media.</h2>
         </div>
         < Socials/>
         < Footer/>
