@@ -115,17 +115,39 @@ export default function PortfolioPage() {
                 <h2 className="text-xl font-bold text-accent mb-8 text-center">Libraries and modules I am currently working on.</h2>
 
                 <div className="bg-main flex flex-col gap-8 items-center justify-center mb-8">
-                    <div className="text-center max-w-sm">
+                    <div className="text-center max-w-sm flex flex-col gap-2 justify-center items-center">
                         <h1 className="font-semibold text-2xl">Camera Control Module</h1>
                         <p className="text-sm">A module that exposes simple functions to the end user to control the camera. Allows for multiple cameras and utility functions to manipulate the cameras.</p>
+
+                        <a href="#" className="flex gap-2 hover:text-accent">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                            </svg>
+                            Live code<span className="italic">(coming soon)</span>
+                        </a>
                     </div>
-                    <div className="text-center max-w-sm">
+                    <div className="text-center max-w-sm flex flex-col gap-2 justify-center items-center">
                         <h1 className="font-semibold text-2xl">Notification System Module</h1>
                         <p className="text-sm">A simple module that makes it easy to notify players of what is going on in the server, highly customizable and easy to use. Features notification queueing.</p>
+                    
+                        <a href="#" className="flex gap-2 hover:text-accent">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                            </svg>
+                            Live code<span className="italic">(coming soon)</span>
+                        </a>
                     </div>
-                    <div className="text-center max-w-sm">
+                    <div className="text-center max-w-sm flex flex-col gap-2 justify-center items-center">
                         <h1 className="font-semibold text-2xl">Party System Module (WIP)</h1>
                         <p className="text-sm">A work in progress module that makes it extremely easy to manage party's of players within games.</p>
+                    
+                        <div className="flex gap-2 hover:text-accent">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.867 19.125h.008v.008h-.008v-.008z" />
+                            </svg>
+                            In Development
+                        </div>
                     </div>
                 </div>
             </div>
