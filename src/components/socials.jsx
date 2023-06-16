@@ -1,7 +1,7 @@
 
 export default function Contact() {
     return <div className="flex flex-col items-center bg-main py-8 text-text">
-        <div className="flex gap-48">
+        <div className="flex flex-wrap justify-center items-center gap-48">
             <a href="https://twitter.com/JustTega_" target="_blank" rel="noreferrer" className="flex items-center justify-center flex-col gap-2">
                 <div className="text-8xl">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
