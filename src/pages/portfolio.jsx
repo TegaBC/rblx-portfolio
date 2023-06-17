@@ -13,8 +13,8 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="flex flex-col items-center bg-main pt-8 text-text">
-                <h1 className="text-6xl lg:text-7xl font-bold mb-4 text-center">PAST GAMES</h1>    
-                <h2 className="text-xl font-bold text-accent mb-8 text-center">Games I have developed or contributed to.</h2>
+                <h1 className="text-6xl lg:text-7xl font-bold mb-4 text-center px-2">PAST GAMES</h1>    
+                <h2 className="text-xl font-bold text-accent mb-8 text-center px-2">Games I have developed or contributed to.</h2>
                 <div className="bg-main flex flex-col gap-12 items-center justify-center mb-8">
                    
                    { /*  Each one of the following divs is a project  */}
