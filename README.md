@@ -3,7 +3,7 @@
 <h3 align="center">Roblox Portfolio Site</h3>
 
   <p align="center">
-    A portfolio site built for my Roblox development, originally it was a theme built wordpress site but I quickly whipped up a react dupe version...
+    A portfolio site built for my Roblox development, originally it was a theme built wordpress site but it is now ported to react.
     <br />
     <a href="https://tegabc.co.uk" target="_blank">View Live Site</a>
     ·
