@@ -9,7 +9,7 @@ export default function HomePage() {
         < NavBar/>
         < Landing/>
         <div className="flex flex-col items-center bg-main py-8 text-text text-center">
-            <h1 className="text-6xl lg:text-7xl font-bold mb-4">ABOUT ME</h1>    
+            <h1 className="text-5xl lg:text-7xl font-bold mb-4">ABOUT ME</h1>    
             <h2 className="text-xl font-bold text-accent mb-4">Learn more about me.</h2>
             <div className="flex flex-col gap-4 items-center">
                 <div className="flex gap-2">
@@ -35,11 +35,11 @@ export default function HomePage() {
         </div>
         < Divider/>
         <div className="flex flex-col items-center bg-main py-8 text-text px-6">
-            <h1 className="text-6xl lg:text-7xl font-bold mb-4">SKILLS</h1>    
+            <h1 className="text-5xl lg:text-7xl font-bold mb-4">SKILLS</h1>    
             <h2 className="text-xl font-bold text-accent mb-4">My skillset.</h2>
             <div className="flex flex-col gap-6 text-black">
                 <div className="flex gap-4">
-                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-white">
+                    <div className="flex items-center justify-center min-w-[4rem] h-16 rounded-full bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                         <path fillRule="evenodd" d="M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm3.97.97a.75.75 0 011.06 0l2.25 2.25a.75.75 0 010 1.06l-2.25 2.25a.75.75 0 01-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 010-1.06zm4.28 4.28a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" clipRule="evenodd" />
                         </svg>
@@ -51,7 +51,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="flex gap-4">
-                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-white">
+                    <div className="flex items-center justify-center min-w-[4rem] h-16 rounded-full bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                         <path fillRule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clipRule="evenodd" />
                         <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
@@ -64,7 +64,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="flex gap-4">
-                    <div className="flex items-center justify-center w-16 h-16 rounded-full bg-white">
+                    <div className="flex items-center justify-center min-w-[4rem] h-16 rounded-full bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                         <path d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875z" />
                         <path d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 001.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 001.897 1.384C6.809 12.164 9.315 12.75 12 12.75z" />
@@ -81,7 +81,7 @@ export default function HomePage() {
         </div>
         < Divider/>
         <div className="flex flex-col items-center bg-main pt-8 text-text px-8">
-            <h1 className="text-6xl lg:text-7xl font-bold mb-4">CONTACT</h1>    
+            <h1 className="text-5xl lg:text-7xl font-bold mb-4">CONTACT</h1>    
             <h2 className="text-xl font-bold text-accent mb-8 text-center">Stay connected with social media.</h2>
         </div>
         < Socials/>
