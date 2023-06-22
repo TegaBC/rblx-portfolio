@@ -48,7 +48,7 @@ export default function PortfolioPage() {
                         </div>
                     </div>
 
-                    <div className="flex gap-8 flex-wrap items-center justify-center">
+                    <div className="flex flex-col-reverse sm:flex-row gap-8 flex-wrap items-center justify-center">
                         <div>
                             <div className="rounded-xl border-solid border-white border-2 bg-black w-80 h-52 bg-[url('/src/assets/battlesim.png')] bg-center bg-cover"></div>
                             
