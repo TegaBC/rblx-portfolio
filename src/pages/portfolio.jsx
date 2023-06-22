@@ -6,14 +6,14 @@ export default function PortfolioPage() {
     return (
         <>
             <NavBar />
-            <div className="h-[480px] bg-splash bg-cover text-text">
+            <div className="h-[380px] sm:h-[480px] bg-splash bg-cover text-text bg-center sm:bg-left-top">
                 <div className="flex flex-col gap-6 items-center justify-center h-full">
-                    <h1 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-center text-6xl lg:text-8xl font-bold">PORTFOLIO</h1>
-                    <h2 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-xl">View my past work and projects</h2>
+                    <h1 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-center text-5xl lg:text-8xl font-bold">PORTFOLIO</h1>
+                    <h2 className="[text-shadow:_0px_2px_26px_rgba(0_0_0_/_59%)] text-lg lg:text-xl">View my past work and projects</h2>
                 </div>
             </div>
             <div className="flex flex-col items-center bg-main pt-8 text-text">
-                <h1 className="text-6xl lg:text-7xl font-bold mb-4 text-center px-2">PAST GAMES</h1>    
+                <h1 className="text-5xl lg:text-7xl font-bold mb-4 text-center px-2">PAST GAMES</h1>    
                 <h2 className="text-xl font-bold text-accent mb-8 text-center px-2">Games I have developed or contributed to.</h2>
                 <div className="bg-main flex flex-col gap-12 items-center justify-center mb-8">
                    
@@ -111,7 +111,7 @@ export default function PortfolioPage() {
             </div>
             <Divider />
             <div className="flex flex-col items-center bg-main pt-8 text-text px-8">
-                <h1 className="text-6xl lg:text-7xl font-bold mb-4">MODULES</h1>    
+                <h1 className="text-5xl lg:text-7xl font-bold mb-4">MODULES</h1>    
                 <h2 className="text-xl font-bold text-accent mb-8 text-center">Libraries and modules I am currently working on.</h2>
 
                 <div className="bg-main flex flex-col gap-8 items-center justify-center mb-8">
@@ -153,7 +153,7 @@ export default function PortfolioPage() {
             </div>
             <Divider />
             <div className="flex flex-col items-center bg-main pt-8 text-text p-8">
-                <h1 className="text-6xl lg:text-7xl font-bold mb-4">PROJECTS</h1>    
+                <h1 className="text-5xl lg:text-7xl font-bold mb-4">PROJECTS</h1>    
                 <h2 className="text-xl font-bold text-accent mb-8 text-center">Small projects and games by me.</h2>
 
                 <div className="bg-main flex flex-col gap-12 items-center justify-center mb-8">
