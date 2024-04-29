@@ -81,8 +81,9 @@ export default function PortfolioPage() {
                     <div className="flex gap-8 flex-wrap items-center justify-center">
                         <div className="max-w-xs flex gap-2 flex-col">
                             <h1 className="font-semibold text-2xl">Job Paradise</h1>
-                            <p className="text-sm">A work in progress city job simulator that players can work multiple jobs to earn money and progress in their career. Different valuable objects can be purchases like cars and houses. 
-                            Fully developed by me from the ground up. 
+                            <p className="text-sm">A work in progress city job simulator that allows players to work through 
+                            multiple jobs to earn money and progress in their career and spend cash on valuable assets like houses and cars.
+                            My role in this project is lead programmer working on all gameplay mechanics.
                             </p>
                            
                             <p href="#" target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-accent">
@@ -130,8 +131,9 @@ export default function PortfolioPage() {
                         </div>
                         <div className="max-w-xs flex gap-2 flex-col">
                             <h1 className="font-semibold text-2xl">Outfit Mania</h1>
-                            <p className="text-sm">A simple outfit game, developed by me. Optimized for a large amount of outfits. Fitted with automatic loading of outfits which can be purchased by players.
-                            I also developed an easy to use system to allow outfits to be added easily by future developers.</p>
+                            <p className="text-sm">A simple outfit game allowing players to browse and purchase outfits. 
+                            I worked as lead programmer on this project creating all game mechanics. Optimized for a large amount of
+                            outfits to be in the game at onc.</p>
                            
                             <a href="https://www.roblox.com/games/13884397385/Outfit-Mania-700" target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-accent">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -146,7 +148,7 @@ export default function PortfolioPage() {
                     <div className="flex gap-8 flex-wrap items-center justify-center">
                         <div className="max-w-xs flex gap-2 flex-col">
                             <h1 className="font-semibold text-2xl">Guess The Character Tower</h1>
-                            <p className="text-sm">This was an early game, fully developed by me from the ground up, including UI design. It features simple game mechanics that would allow players to choose quizzes to complete. Sadly, this game is no longer available to play.</p>
+                            <p className="text-sm">This was an early game, fully developed by me from the ground up, including UI design. It features simple game mechanics that would allow players to choose quizzes to complete. Unfortunately, this game is no longer available to play.</p>
                            
                             <a href="https://www.roblox.com/games/8649235309/Content-Deleted" target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-accent">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -182,7 +184,7 @@ export default function PortfolioPage() {
                 <div className="bg-main flex flex-col gap-8 items-center justify-center mb-8">
                     <div className="text-center max-w-sm flex flex-col gap-2 justify-center items-center">
                         <h1 className="font-semibold text-2xl">Camera Control Module</h1>
-                        <p className="text-sm">A module that exposes simple functions to the end user to control the camera. Allows for multiple cameras and utility functions to manipulate the cameras.</p>
+                        <p className="text-sm">A module that exposes simple functions to the end user to control the camera. Allows for multiple cameras and utility functions to manipulate them.</p>
 
                         <a href="#" className="flex gap-2 hover:text-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -193,7 +195,7 @@ export default function PortfolioPage() {
                     </div>
                     <div className="text-center max-w-sm flex flex-col gap-2 justify-center items-center">
                         <h1 className="font-semibold text-2xl">Notification System Module</h1>
-                        <p className="text-sm">A simple module that makes it easy to notify players of what is going on in the server, highly customizable and easy to use. Features notification queueing.</p>
+                        <p className="text-sm">A simple module that makes it easy to notify players of what is going on in the server or locally, highly customizable and easy to use. Features notification queueing.</p>
                     
                         <a href="#" className="flex gap-2 hover:text-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
