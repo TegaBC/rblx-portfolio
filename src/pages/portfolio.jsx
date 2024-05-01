@@ -133,7 +133,7 @@ export default function PortfolioPage() {
                             <h1 className="font-semibold text-2xl">Outfit Mania</h1>
                             <p className="text-sm">A simple outfit game allowing players to browse and purchase outfits. 
                             I worked as lead programmer on this project creating all game mechanics. Optimized for a large amount of
-                            outfits to be in the game at onc.</p>
+                            outfits to be in the game at once.</p>
                            
                             <a href="https://www.roblox.com/games/13884397385/Outfit-Mania-700" target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-accent">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
