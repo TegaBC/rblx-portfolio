@@ -29,7 +29,7 @@ export default function HomePage() {
                     <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
                     </svg>
 
-                    <p>19 Years Old</p>
+                    <p>20 Years Old</p>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ export default function HomePage() {
                     </div>
                     <div>
                         <h1 className="text-accent font-medium">Programming</h1>
-                        <p className="text-text text-sm max-w-[35ch]">Proficient in Lua/Luau and fullstack web development</p>
+                        <p className="text-text text-sm max-w-[35ch]">Proficient in Lua/Luau, C, Python & Fullstack Web Development</p>
                     </div>
                 </div>
                 <div className="flex gap-4">
@@ -59,7 +59,7 @@ export default function HomePage() {
                         </svg>
                     </div>
                     <div>
-                        <h1 className="text-accent font-medium">Code Structure</h1>
+                        <h1 className="text-accent font-medium">Software Design</h1>
                         <p className="text-text text-sm max-w-[35ch]">High quality and well documented internal code structure to make life easy for others.</p>
                     </div>
                 </div>
